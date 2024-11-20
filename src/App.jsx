@@ -1,15 +1,12 @@
 import React from 'react'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div className='app' >
-        <div className='app-header'>
-          <span>LOGO</span>
-          <h2>QUIZ</h2>
-        </div>
-        <div className='progress' >
-
-        </div>
+            <Header/>
+            <Footer/>
     </div>
   )
 } 
