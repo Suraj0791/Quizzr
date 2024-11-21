@@ -1,5 +1,5 @@
 
-function Progress() {
+function Progress({id}) {
   
 
   return (
@@ -7,7 +7,7 @@ function Progress() {
       <progress  />
 
       <p>
-        Question 1
+        {`${id}/15`}
       </p>
 
       <p>
